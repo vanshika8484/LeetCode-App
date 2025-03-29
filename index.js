@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
             {label: "Overall Hard Submissions", value:parsedData.data.matchedUser.submitStats.acSubmissionNum[3].submissions },
         ];
 
-       // console.log("card ka data: " , cardsData);
+       console.log("card ka data: " , cardsData);
 
         cardStatsContainer.innerHTML = cardsData.map(
             data => 
